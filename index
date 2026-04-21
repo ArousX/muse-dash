@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资源下载中心</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
+        .floating-icon { animation: float 3s ease-in-out infinite; }
+        ::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-blue-50 to-purple-50 min-h-screen flex items-center justify-center p-4 font-sans text-gray-800">
+
+    <div class="bg-white/70 backdrop-blur-xl rounded-3xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.1)] p-8 max-w-sm w-full border border-white text-center relative overflow-hidden">
+        
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-2 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-b-xl opacity-80"></div>
+
+        <div class="w-24 h-24 mx-auto bg-gradient-to-tr from-blue-100 to-indigo-50 rounded-2xl flex items-center justify-center mb-6 floating-icon shadow-inner border border-blue-100/50 rotate-3 hover:rotate-0 transition-transform duration-300">
+            <svg class="w-12 h-12 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+        </div>
+
+        <h1 class="text-xl font-bold text-gray-900 mb-2 truncate" title="喵斯-8558fc4d536a.rar">喵斯-8558fc4d536a.rar</h1>
+        
+        <div class="flex items-center justify-center gap-3 text-sm text-gray-500 mb-6 font-medium">
+            <span class="bg-gray-100 px-3 py-1 rounded-full flex items-center gap-1">📦 压缩包</span>
+            <span class="bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full flex items-center gap-1">💾 88.0 MB</span>
+        </div>
+
+        <a href="https://gitee.com/ArousX/downland/releases/download/v1.0/%E5%96%B5%E6%96%AF-8558fc4d536a.rar" class="block w-full group">
+            <button class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold py-4 px-6 rounded-2xl shadow-lg hover:shadow-indigo-500/30 transform hover:-translate-y-1 active:translate-y-0 active:scale-95 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer pointer-events-none">
+                <svg class="w-5 h-5 group-hover:animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                <span>立即高速下载</span>
+            </button>
+        </a>
+        
+    </div>
+
+</body>
+</html>
